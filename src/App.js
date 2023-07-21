@@ -10,7 +10,7 @@ import Navigation from "./components/Navigation";
 import { AnimatePresence } from "framer-motion";
 
 const pages = [
-  { path: "/", pathName: "Home", Component: Home },
+  { path: "/eportfolio", pathName: "Home", Component: Home },
   { path: "/about", pathName: "About", Component: About },
   { path: "/contact", pathName: "Contact", Component: Contact },
 ];
