@@ -24,7 +24,7 @@ const Contact = () => {
       top: 0,
       left: 0,
     });
-    document.title = "Sharmil — Contact Me";
+    document.title = "Tejas — Contact Me";
 
     gsap.from(".services__inner", {
       duration: 0.2,
