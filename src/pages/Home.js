@@ -50,7 +50,7 @@ const Home = () => {
             </span>
           </h1>
           <h1 className="landing__main2">
-          Hi, I'm Tejas! <br /> Welcome to my portfolio..
+          Hi, I'm Tejas! <br /> Welcome to my portfolio.
           </h1>
           <div className="links">
             <NavLink className="item" to="/about">
