@@ -491,7 +491,7 @@
       background: $boxBlue;
 
       .box-image {
-        width: 110%;
+        width: 120%;
         height: 100%;
         background: url("https://external-preview.redd.it/3M_albb98N3HP9ci_OgN79rXbyYeNvR62rjJjAJ41RM.jpg?auto=webp&s=08dec40b8376edcf44499f592b85b757ba675b31")
           no-repeat;
@@ -504,12 +504,19 @@
       background: rgb(29, 182, 188);
 
       .box-image {
-        width: 150%;
+        margin-top: -15px;
+        position: relative;
+        left: -70px;
+        width: 108%;
         height: 100%;
-        background: url("https://res.cloudinary.com/dkhzfrkvg/image/upload/v1623738075/portfolio-images/attendancesystem_gykfkg.jpg")
+        background: url("https://www.hasbro.com/common/productimages/en_US/7EABAF9750569047F5778F4663C79E75/ee616120d6a46a0dc71d39ce6857290414129b14.jpg")
           no-repeat;
         background-size: contain;
         margin-top: 10px;
+      }
+      
+      @include media("<=phone") {
+        left: -40px;
       }
     }
 
