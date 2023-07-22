@@ -12,21 +12,21 @@ const Footer = () => {
             
             <p>
               <a
-                data-text="tejaskandri28@gamil.com"
+                data-text="Email"
                 href="mailto:tejaskandri28@gamil.com"
               >
-                tejaskandri28@gamil.com
+                Email
               </a>
             </p>
 
             <p>
               <a
-                data-text="wa.me/sharmiladroja"
-                href="https://wa.me/+918805929891"
+                data-text="LinkedIn"
+                href="https://linkedin.com/in/tejaskandri28"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                wa.me/sharmiladroja
+                LinkedIn
               </a>
             </p>
 

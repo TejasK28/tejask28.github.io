@@ -52,40 +52,54 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                Sophomore Computer Science student at Rutgers University - New Brunswick.  
+                Sophomore computer science student at Rutgers University - New Brunswick.
+                Driven to expand expertise in a dyanmic and ever-changing learning enviroment.
+                Eager to contribute to rapid advancements and innovation and aim to explore new opportunities.
               </p>
               <p>
-                I'm pursuing internship opportunities.
+                Currently looking for roles and opportunities in software engineering and data science/engineering to apply my skills in computer science. 
               </p>
             </div>
             <a
               href="https://drive.google.com/file/d/1LONjL1bsZQ55ZXYRsANSlAionsJnOCc6/view?usp=sharing"
               download
             >
-              <i className="fas fa-file-alt"></i> Download Resume
+              <i className="fas fa-file-alt"></i> View Resume
             </a>
           </div>
 
           <div className="about__bottom">
             <div className="experience">
               <div className="stack main-title">
-                <span>Stack.</span>
+                <span>Tech Stack.</span>
               </div>
 
               <div className="companies">
+                
+                
                 <div className="company">
-                  <div className="name tech">Core Tech:</div>
+                  <div className="name tech">Languages:</div>
                   <ul className="tasks">
+                    <li>Java</li>
                     <li>Python</li>
                     <li>C/C++</li>
                     <li>JavaScript</li>
                     <li>Angular</li>
-                    <li>NestJS</li>
-                    <li>PrimeNG</li>
-                    <li>REST APIs</li>
-                    <li>SQLite3</li>
-                    <li>MySQL</li>
+                    <li>SQL</li>
+                    <li>NoSQL</li>
                     <li>CSS</li>
+                  </ul>
+                </div>
+
+
+                <div className="company">
+                  <div className="name tech">Frameworks/Libraries/Technologies:</div>
+                  <ul className="tasks">
+                    <li>Selenium</li>
+                    <li>Cypress</li>
+                    <li>React</li>
+                    <li>REST APIs</li>
+
                   </ul>
                 </div>
 
@@ -93,12 +107,14 @@ const About = () => {
                   <div className="name tech">Familiar:</div>
                   <ul className="tasks">
                     <li>Django</li>
-                    <li>React</li>
-                    <li>AWS S3 & IAM User</li>
+                    <li>Flask</li>
+                    <li>AWS</li>
                     <li>UI/UX</li>
                   </ul>
                 </div>
 
+                {/* 
+                
                 <div className="company">
                   <div className="name tech">On The Job:</div>
                   <ul className="tasks">
@@ -110,8 +126,13 @@ const About = () => {
                     <li>Continuous Integration/Development.</li>
                   </ul>
                 </div>
+                
+                */}
+
+              
               </div>
             </div>
+
             <div className="experience">
               <div className="main-title">
                 <span>experience.</span>
@@ -124,14 +145,9 @@ const About = () => {
                   <div className="year">July 2023 - Present</div>
                   <ul className="tasks">
                     <li>
-                    Tutoring athletes in multiple courses related to Computer Science such as Data Structures & Algotrithms, Introduction to Logic, and Calculus I & II
+                    Tutored athletes in multiple courses related to Computer Science such as Data Structures & Algorithms, Introduction to Logic, and Calculus I & II
                     </li>
-                    <li>
-                    Second
-                    </li>
-                    <li>
-                    Third bullet
-                    </li>
+                    
                   </ul>
                 </div>
 
@@ -141,13 +157,13 @@ const About = () => {
                   <div className="year">September 2022 - Present</div>
                   <ul className="tasks">
                     <li>
-                      First Bullet point
+                      Evaluated the progress of 30+ students in multiple subjects spanning from elementary mathematics to college-level calculus 
                     </li>
                     <li>
-                    Collaborating with other team members to complete the given tasks.
+                      Contributed significantly to the success in mathematics-related assessments, resulting in an average score of 90% among students
                     </li>
                     <li>
-                    Working as a full-stack developer.
+                    Leveraged effective teaching methods to keep students engaged to foster a deeper understanding of mathematics
                     </li>
                   </ul>
                 </div>

@@ -15,17 +15,16 @@
   }
 
   @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Megrim&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Fira%20Code:wght@300..700&display=swap');
   #logo {
     position: fixed;
     // font-family: "Lobster", cursive;
     // font-weight: lighter;
-    font-family: 'Josefin Sans', sans-serif;
-font-family: 'Megrim', cursive;
-    color: #39B877;
+    font-family: 'Fira Code', sans-serif;
+    color: rgb(18, 200, 18);
 
     .logo1{
-      color: white;
+      color: green;
     }
 
     .dev{
@@ -33,6 +32,7 @@ font-family: 'Megrim', cursive;
       // font-weight: lighter;
       font-size: 1rem;
       font-weight: 50;
+      font-family: 'Fira Code';
       color: white !important;
     }
 

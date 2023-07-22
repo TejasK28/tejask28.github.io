@@ -446,6 +446,21 @@
       }
     }
 
+    .in-progress-banner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: red;
+      color: white;
+      padding: 5px 10px;
+      font-weight: bold;
+      font-size: 14px;
+      transform-origin: left top;
+      transform: translate(-12%, 200%) rotate(-45deg);
+      border-radius: 20px; /* Adjust the value to control the roundness of the corners */
+    }
+    
+
     .box-1 {
       background: $col-yellow;
       margin-top: 130px;
@@ -460,7 +475,7 @@
         left: -70px;
         width: 108%;
         height: 100%;
-        background: url("https://res.cloudinary.com/dkhzfrkvg/image/upload/v1621156041/portfolio-images/Music_v5xtbh.png")
+        background: url("https://predibase.com/static/1d95814c46386c5e43c3a94392d18feb/a3418/guide-to-sentiment-analytics.png")
           no-repeat;
         background-size: contain;
 
@@ -468,6 +483,8 @@
           left: -40px;
         }
       }
+
+      
     }
 
     .box-2 {
@@ -476,7 +493,7 @@
       .box-image {
         width: 110%;
         height: 100%;
-        background: url("https://res.cloudinary.com/dkhzfrkvg/image/upload/v1623570357/portfolio-images/food_y0dbrr.png")
+        background: url("https://external-preview.redd.it/3M_albb98N3HP9ci_OgN79rXbyYeNvR62rjJjAJ41RM.jpg?auto=webp&s=08dec40b8376edcf44499f592b85b757ba675b31")
           no-repeat;
         background-size: contain;
         margin-top: 40px;
@@ -505,7 +522,7 @@
         max-width: 480px;
         margin: 0px auto;
         height: 100%;
-        background: url("https://res.cloudinary.com/dkhzfrkvg/image/upload/v1623737394/portfolio-images/e-commers_dbgkhg.png")
+        background: url("https://www.nj.com/resizer/UyvuXL5AGN2dryv1dIw18Fr97MM=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/HBVUUTFAXVHMJC6MPW4SYLF3DQ.JPG")
           no-repeat;
         background-size: contain;
         margin-top: 20px;

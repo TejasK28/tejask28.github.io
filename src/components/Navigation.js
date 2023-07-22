@@ -18,6 +18,22 @@ const Navigation = () => {
                 About me
               </NavLink>
             </div>
+            
+            
+            <div data-text="Resume" className="nav-link">
+            <a href="https://drive.google.com/file/d/1LONjL1bsZQ55ZXYRsANSlAionsJnOCc6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                Resume
+              </a>
+
+              {/* 
+              
+              <NavLink activeClassName="active-link" to="/resume">
+                Resume
+              </NavLink>
+              
+              */}
+      
+            </div>
             <div data-text="Contact" className="nav-link">
               <NavLink activeClassName="active-link" to="/contact">
                 Contact

@@ -32,7 +32,7 @@ const Header = ({ history }) => {
       <div className={`logo header-item`}>
         <Link to="/eportfolio">
           {/* changed */}
-          <h2 id = "logo">Sharmil<span className="dev">.dev</span></h2>
+          <h2 id = "logo"><span className="dev"></span></h2>
         </Link>
       </div>
       <div

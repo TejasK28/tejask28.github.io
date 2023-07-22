@@ -78,7 +78,7 @@ const Home = () => {
         <section className="landing__work">
           <AnimateEl>
             <div className="title" id="projects">
-              Personal <br /> Projects -
+              Personal <br /> Projects
             </div>
           </AnimateEl>
           <div className="boxes">
@@ -89,15 +89,16 @@ const Home = () => {
                 className="box box-1"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://sharmil001.github.io/Music-Player/"
+                href="https://github.com/TejasK28/Film-Oracle-Sentiment-Analysis/"
               >
                 <div className="box-content">
-                  <div className="box-anim p-title">Sentiment Analysis for Movies</div>
+                  <div className="box-anim p-title">Sentiment Analysis for Movies & Shows</div>
                   <div className="box-anim p-sub">
-                    A website for the soothing & cool music.
+                    A neural network learns your movie interests and predicts what movies & shows you would enjoy.
                   </div>
                   <div className="box-anim link">View Project &#8594;</div>
                 </div>
+                <div className="in-progress-banner">In Progress</div>
 
                 <div className="box-image"></div>
               </a>
@@ -112,9 +113,9 @@ const Home = () => {
                 onMouseLeave={boxExit}
               >
                 <div className="box-content">
-                  <div className="box-anim p-title">Digital Menu Cards</div>
+                  <div className="box-anim p-title">Rutgers University: Course Sniper</div>
                   <div className="box-anim p-sub">
-                  Restaurants and Ordering System Using QR Code Scanning.
+                    Automates course selection & registration for highly competitive courses.  
                   </div>
                   <div className="box-anim link">View Project &#8594;</div>
                 </div>
@@ -122,9 +123,11 @@ const Home = () => {
                 <div className="box-image"></div>
               </a>
             </AnimateEl>
+            
+            
             <AnimateEl>
               <a
-                href="https://github.com/Sharmil001/Attendance_Marking_face_recognition"
+                href="https://github.com/TejasK28/Monopoly"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="box box-3"
@@ -132,19 +135,20 @@ const Home = () => {
                 onMouseLeave={boxExit}
               >
                 <div className="box-content">
-                  <div className="box-anim p-title">Attendace System</div>
+                  <div className="box-anim p-title">Monopoly</div>
                   <div className="box-anim p-sub">
-                  Smart attendace marking system using face recognition.
+                    Recreated of the family game Monopoly in Java.
                   </div>
                   <div className="box-anim link">View Project &#8594;</div>
                 </div>
-
+                <div className="in-progress-banner">In progress</div>
                 <div className="box-image"></div>
               </a>
             </AnimateEl>
+
             <AnimateEl>
               <a
-                href="#"
+                href="https://github.com/TejasK28/Skip-The-Line-Kivy-Version"
                 target="_blank"
                 rel="noopener noreferrer"
                 onMouseEnter={boxHover}
@@ -152,16 +156,17 @@ const Home = () => {
                 className="box box-4"
               >
                 <div className="box-content">
-                  <div className="box-anim p-title">Shopify</div>
+                  <div className="box-anim p-title">New Jersey MVC Appointment Sniper</div>
                   <div className="box-anim p-sub">
-                  Shopify is interactive UI for Ecommerce Website. 
+                    Automates appointment registration process for any MVC location in NJ. Open sourced during the pandemic.
                   </div>
-                  <div className="box-anim link">Under Construction &#8594;</div>
+                  <div className="box-anim link">View Project &#8594;</div>
                 </div>
 
                 <div className="box-image"></div>
               </a>
             </AnimateEl>
+            
           </div>
           <a
             href="https://github.com/tejask28"
@@ -181,11 +186,11 @@ const Home = () => {
               🔎
             </span>
           </div>
-          <div className="topic">PS: I also write, sometimes.</div>
+          <div className="topic">PS: I enjoy writing.</div>
 
           <div className="social-boxes">
             <a
-              href="https://github.com/Sharmil001"
+              href="https://github.com/tejask28"
               target="_blank"
               rel="noopener noreferrer"
               className="box github"

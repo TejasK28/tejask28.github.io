@@ -79,17 +79,17 @@ const Contact = () => {
       >
         <div className="services__inner">
           <div className="services__top">
-            <div className="title">Get In Touch!</div>
+            <div className="title">Let's Get In Touch!</div>
             <div className="sub">
-              Got a question, proposal or project or want to work <br />{" "}
-              together on something? Feel free to reach out.
+              Have a question, proposal or project?<br />{" "}
+              Feel free to reach out.
             </div>
             <form onSubmit={onSubmit}>
               <div className="input-row">
                 <div className="side">
                   <label htmlFor="name">Your Name</label>
                   <input
-                    placeholder="What's Your Name?"
+                    placeholder="name"
                     name="name"
                     id="name"
                     type="text"
@@ -102,7 +102,7 @@ const Contact = () => {
                 <div className="side">
                   <label htmlFor="email">Your Email</label>
                   <input
-                    placeholder="What's Your Email?"
+                    placeholder="email"
                     name="email"
                     id="email"
                     type="email"
@@ -117,7 +117,7 @@ const Contact = () => {
                 <textarea
                   name="message"
                   id="message"
-                  placeholder="Hello, I think we need you to work on/collaborate this particular product... Reach out as soon as you can."
+                  placeholder="type your message here..."
                   required
                   value={message}
                   onChange={onChange}
