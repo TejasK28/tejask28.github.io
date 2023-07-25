@@ -57,7 +57,7 @@ const About = () => {
                 Eager to contribute to rapid advancements and innovation and aim to explore new opportunities.
               </p>
               <p>
-                Currently looking for roles and opportunities in software engineering and data science/engineering to apply my skills in computer science. 
+                Currently looking for roles and opportunities in software engineering and data science/engineering. 
               </p>
             </div>
             <a
