@@ -14,7 +14,7 @@ const Navigation = () => {
               </NavLink>
             </div>
             <div data-text="About Me" className="nav-link">
-              <NavLink activeClassName="active-link" to="/about">
+              <NavLink activeClassName="active-link" to="/eportfolio/about">
                 About me
               </NavLink>
             </div>
@@ -35,7 +35,7 @@ const Navigation = () => {
       
             </div>
             <div data-text="Contact" className="nav-link">
-              <NavLink activeClassName="active-link" to="/contact">
+              <NavLink activeClassName="active-link" to="/eportfolio/contact">
                 Contact
               </NavLink>
             </div>

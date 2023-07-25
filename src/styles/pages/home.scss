@@ -472,8 +472,8 @@
       .box-image {
         margin-top: -15px;
         position: relative;
-        left: -70px;
-        width: 108%;
+        top: 30px;
+        width: 100%;
         height: 100%;
         background: url("https://predibase.com/static/1d95814c46386c5e43c3a94392d18feb/a3418/guide-to-sentiment-analytics.png")
           no-repeat;
@@ -492,17 +492,18 @@
       background: $boxBlue;
 
       .box-image {
-        width: 120%;
+        width: 100%;
         height: 100%;
         background: url("https://external-preview.redd.it/3M_albb98N3HP9ci_OgN79rXbyYeNvR62rjJjAJ41RM.jpg?auto=webp&s=08dec40b8376edcf44499f592b85b757ba675b31")
           no-repeat;
         background-size: contain;
-        margin-top: 40px;
+        margin-top: 50px;
 
         @include media("<=phone") {
           left: 0px;
           max-width: 480px;
           margin: 0px auto;
+          margin-top: 40px;
         }
       }
     }
@@ -511,19 +512,20 @@
       background: rgb(29, 182, 188);
 
       .box-image {
-        margin-top: -15px;
         position: relative;
-        width: 100%;
-        height: 100%;
+        width: 75%;
+        height: 75%;
         background: url("https://www.hasbro.com/common/productimages/en_US/7EABAF9750569047F5778F4663C79E75/ee616120d6a46a0dc71d39ce6857290414129b14.jpg")
           no-repeat;
         background-size: contain;
-        margin-top: 10px;
+        margin-top: 0px;
+        margin-left: 50px;
 
         @include media("<=phone") {
           left: 0px;
           max-width: 480px;
           margin: 0px auto;
+          margin-top: 30px;
         }
       }
       
@@ -535,18 +537,18 @@
       margin-top: -130px;
 
       .box-image {
-        width: 100%;
+        width: 90%;
         max-width: 480px;
         margin: 0px auto;
-        height: 100%;
+        height: 90%;
         background: url("https://www.nj.com/resizer/UyvuXL5AGN2dryv1dIw18Fr97MM=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/HBVUUTFAXVHMJC6MPW4SYLF3DQ.JPG")
           no-repeat;
         background-size: contain;
-        margin-top: 20px;
+        margin-top: -10px;
       }
 
       @include media("<=986px") {
-        margin-top: 0;
+        margin-top: 10px;
       }
     }
   }

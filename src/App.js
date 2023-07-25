@@ -11,8 +11,8 @@ import { AnimatePresence } from "framer-motion";
 
 const pages = [
   { path: "/eportfolio", pathName: "Home", Component: Home },
-  { path: "/about", pathName: "About", Component: About },
-  { path: "/contact", pathName: "Contact", Component: Contact },
+  { path: "/eportfolio/about", pathName: "About", Component: About },
+  { path: "/eportfolio/contact", pathName: "Contact", Component: Contact },
 ];
 
 function App() {

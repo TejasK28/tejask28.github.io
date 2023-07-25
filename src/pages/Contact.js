@@ -47,9 +47,9 @@ const Contact = () => {
   const onSubmit = async (e) => {
     e.preventDefault();
 
-    const service_id = "service_ucqn9kb";
-    const template_id = "template_vdpzagj";
-    const userId = "user_Ve5NzbhqaKfrS64JkQLwR";
+    const service_id = "service_tn4oh1k";
+    const template_id = "template_nvvzizg";
+    const userId = "E3a2a-M3qNeDc3tUs";
     try {
       setLoading(true);
       await emailjs.send(service_id, template_id, formState, userId);

@@ -10,8 +10,8 @@ import AnimateEl from "../components/AnimateEl";
 
 const transition = { duration: 1, ease: "easeInOut", delay: 0.8 };
 
-const text1 = "Hi, I'm Tejas!";
-const text2 = "Welcome to my portfolio.";
+const text1 = "Hi, I'm Tejas.";
+const text2 = "Code, Creativity, and Projects.";
 
 const Home = () => {
   useEffect(() => {
@@ -50,10 +50,10 @@ const Home = () => {
             </span>
           </h1>
           <h1 className="landing__main2">
-          Hi, I'm Tejas! <br /> Welcome to my portfolio.
+          {text1} <br /> {text2}
           </h1>
           <div className="links">
-            <NavLink className="item" to="/about">
+            <NavLink className="item" to="/eportfolio/about">
               About Me
             </NavLink>
             <span className="item">—</span>
@@ -224,9 +224,9 @@ const Home = () => {
         </section>
 
         <section className="contact">
-          <div className="topic">Need a developer ?</div>
-          <Link to="/contact">
-            <div className="title">Let's Collaborate &#8594;</div>
+          <div className="topic">Interested To Learn More ?</div>
+          <Link to="/eportfolio/contact">
+            <div className="title">Let's Talk &#8594;</div>
           </Link>
         </section>
 
