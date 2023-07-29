@@ -137,7 +137,7 @@ const Home = () => {
                 <div className="box-content">
                   <div className="box-anim p-title">Monopoly</div>
                   <div className="box-anim p-sub">
-                    Recreated of the family game Monopoly in Java.
+                    Recreation of the family game Monopoly in Java.
                   </div>
                   <div className="box-anim link">View Project &#8594;</div>
                 </div>
