@@ -30,7 +30,7 @@ const Header = ({ history }) => {
   return (
     <div className="header">
       <div className={`logo header-item`}>
-        <Link to="/eportfolio">
+        <Link to="/">
           {/* changed */}
           <h2 id = "logo"><span className="dev"></span></h2>
         </Link>

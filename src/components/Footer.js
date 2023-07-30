@@ -36,13 +36,13 @@ const Footer = () => {
           <div className="link">
 
             <p>
-              <Link data-text="Resume" to="/eportfolio/about">
+              <Link data-text="Resume" to="/about">
                 Resume
               </Link>
             </p>
 
             <p>
-              <Link data-text="Message" to="/eportfolio/contact">
+              <Link data-text="Message" to="/contact">
                 Message
               </Link>
             </p>

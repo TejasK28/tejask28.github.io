@@ -53,7 +53,7 @@ const Home = () => {
           {text1} <br /> {text2}
           </h1>
           <div className="links">
-            <NavLink className="item" to="/eportfolio/about">
+            <NavLink className="item" to="/about">
               About Me
             </NavLink>
             <span className="item">—</span>
@@ -225,7 +225,7 @@ const Home = () => {
 
         <section className="contact">
           <div className="topic">Interested To Learn More ?</div>
-          <Link to="/eportfolio/contact">
+          <Link to="/contact">
             <div className="title">Let's Talk &#8594;</div>
           </Link>
         </section>

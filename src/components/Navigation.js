@@ -9,12 +9,12 @@ const Navigation = () => {
           <div className="nav-title">Menu</div>
           <div className="nav-links">
             <div data-text="Home" className="nav-link">
-              <NavLink exact activeClassName="active-link" to="/eportfolio">
+              <NavLink exact activeClassName="active-link" to="/">
                 Home
               </NavLink>
             </div>
             <div data-text="About Me" className="nav-link">
-              <NavLink activeClassName="active-link" to="/eportfolio/about">
+              <NavLink activeClassName="active-link" to="/about">
                 About me
               </NavLink>
             </div>
@@ -35,7 +35,7 @@ const Navigation = () => {
       
             </div>
             <div data-text="Contact" className="nav-link">
-              <NavLink activeClassName="active-link" to="/eportfolio/contact">
+              <NavLink activeClassName="active-link" to="/contact">
                 Contact
               </NavLink>
             </div>
