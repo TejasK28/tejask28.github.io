@@ -105,7 +105,7 @@ const Home = () => {
             </AnimateEl>
             <AnimateEl>
               <a
-                href="https://python-food.herokuapp.com/"
+                href="https://github.com/TejasK28/Course-Sniper-2.0"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="box box-2"

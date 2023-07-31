@@ -545,6 +545,10 @@
           no-repeat;
         background-size: contain;
         margin-top: -40px;
+
+        @include media("<=986px") {
+          margin-top: -7px;
+        }
       }
 
       @include media("<=986px") {
