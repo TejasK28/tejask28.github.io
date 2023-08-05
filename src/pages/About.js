@@ -64,7 +64,7 @@ const About = () => {
               href="https://drive.google.com/file/d/1LONjL1bsZQ55ZXYRsANSlAionsJnOCc6/view?usp=sharing"
               download
             >
-              <i className="fas fa-file-alt"></i> View Resume
+              <i className="fas fa-file-alt"></i> View Résumé
             </a>
           </div>
 
@@ -84,10 +84,12 @@ const About = () => {
                     <li>Python</li>
                     <li>C/C++</li>
                     <li>JavaScript</li>
-                    <li>Angular</li>
+                    <li>HTML/CSS</li>
                     <li>SQL</li>
                     <li>NoSQL</li>
-                    <li>CSS</li>
+                    <li>Kotlin</li>
+
+
                   </ul>
                 </div>
 
@@ -95,11 +97,23 @@ const About = () => {
                 <div className="company">
                   <div className="name tech">Frameworks/Libraries/Technologies:</div>
                   <ul className="tasks">
+                    <li>D3.js</li>
+                    <li>Node.js</li>
+                    <li>Kubernetes</li>
+                    <li>Docker</li>
+                    <li>Git/Github</li>
+                    <li>MERN</li>
                     <li>Selenium</li>
                     <li>Cypress</li>
                     <li>React</li>
                     <li>REST APIs</li>
-
+                    <li>Angular</li>
+                    <li>Scrapy</li>
+                    <li>Pandas</li>
+                    <li>NumPy</li>
+                    <li>Matplotlib</li>
+                    <li>vue.js</li>
+                    <li>MongoDB</li>
                   </ul>
                 </div>
 

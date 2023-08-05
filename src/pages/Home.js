@@ -11,7 +11,7 @@ import AnimateEl from "../components/AnimateEl";
 const transition = { duration: 1, ease: "easeInOut", delay: 0.8 };
 
 const text1 = "Hi, I'm Tejas.";
-const text2 = "Code, Creativity, and Projects.";
+const text2 = "Code, Creativity, & Projects.";
 
 const Home = () => {
   useEffect(() => {
@@ -224,9 +224,9 @@ const Home = () => {
         </section>
 
         <section className="contact">
-          <div className="topic">Interested To Learn More ?</div>
+          <div className="topic">Want To Get In Touch?</div>
           <Link to="/contact">
-            <div className="title">Let's Talk &#8594;</div>
+            <div className="title">Message Me &#8594;</div>
           </Link>
         </section>
 

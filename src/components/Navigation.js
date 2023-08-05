@@ -20,18 +20,10 @@ const Navigation = () => {
             </div>
             
             
-            <div data-text="Resume" className="nav-link">
+            <div data-text="Résumé" className="nav-link">
             <a href="https://drive.google.com/file/d/1LONjL1bsZQ55ZXYRsANSlAionsJnOCc6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                Resume
+            Résumé
               </a>
-
-              {/* 
-              
-              <NavLink activeClassName="active-link" to="/resume">
-                Resume
-              </NavLink>
-              
-              */}
       
             </div>
             <div data-text="Contact" className="nav-link">

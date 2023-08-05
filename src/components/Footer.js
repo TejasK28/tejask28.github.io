@@ -36,14 +36,14 @@ const Footer = () => {
           <div className="link">
 
             <p>
-              <Link data-text="Resume" to="/about">
-                Resume
+              <Link data-text="About" to="/about">
+              About
               </Link>
             </p>
 
             <p>
-              <Link data-text="Message" to="/contact">
-                Message
+              <Link data-text="Contact" to="/contact">
+                Contact
               </Link>
             </p>
           </div>

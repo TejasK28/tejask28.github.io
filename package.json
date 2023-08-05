@@ -1,6 +1,6 @@
 {
   "homepage":"http://tejask28.github.io/",
-  "name": "seyi-portfolio",
+  "name": "tejas-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,7 +15,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "react-use": "^15.3.3",
-    "sass": "^4.14.1"
+    "sass": "^1.64.2"
   },
   "scripts": {
     "start": "react-scripts start",

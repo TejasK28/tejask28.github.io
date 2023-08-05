@@ -55,7 +55,7 @@ const Contact = () => {
       await emailjs.send(service_id, template_id, formState, userId);
       setFormState(initialForm);
       setLoading(false);
-      setButtonMessage("Success!!");
+      setButtonMessage("Success!");
     } catch (err) {
       setLoading(false);
       setButtonMessage("Error, Try again.");
