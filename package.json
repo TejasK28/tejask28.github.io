@@ -1,5 +1,5 @@
 {
-  "homepage":"http://tejask28.github.io/",
+  "homepage": "http://tejask28.github.io/",
   "name": "tejas-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "emailjs-com": "^2.6.3",
     "framer-motion": "^2.1.0",
+    "git-filter-repo": "^0.0.30",
     "gsap": "^3.4.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
