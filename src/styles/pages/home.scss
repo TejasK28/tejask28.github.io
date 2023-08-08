@@ -252,12 +252,13 @@
     button {
       @include button;
       background: transparent;
-      position: absolute;
-      right: 17.5%;
+      position: relative;
+      top: -60px;
+      right: -70.5%;
       text-transform: none;
       font-weight: 500;
       font-family: "Inter", sans-serif;
-      bottom: 6.8%;
+      //bottom: -16.8%;
       font-size: 16px;
       color: $blueShape;
       border: 1px solid $blueShape;
@@ -294,12 +295,14 @@
         right: unset;
         display: block;
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 90px;
       }
+
 
       .btn-content {
         position: relative;
         z-index: 1;
+
       }
     }
 
@@ -557,6 +560,63 @@
           left: 0;
           overflow: hidden;
           background: url("https://www.nj.com/resizer/UyvuXL5AGN2dryv1dIw18Fr97MM=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/HBVUUTFAXVHMJC6MPW4SYLF3DQ.JPG")
+            no-repeat;
+          background-size: 100% auto; /* Use 100% width and auto height to smush the background image */
+          margin-bottom: -1.5rem;
+        }
+      }
+
+      @include media("<=986px") {
+        margin-top: 10px;
+      }
+    }
+
+    .box-5 {
+      background: $darkOrange;
+
+      .box-image {
+        width: 100%;
+        height: 50%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        overflow: hidden;
+        background: url("https://assets.nintendo.com/image/upload/ar_16:9,c_lpad,w_1240/b_white/f_auto/q_auto/ncom/software/switch/70010000034088/ac97854c142c719f8ae843106d43511db61822eb9bdb78e2c1a98ea0ae3b6c08")
+          no-repeat;
+        background-size: 100% 100%;
+
+
+        @include media("<=phone") {
+          height: 40%;
+
+        }
+      }
+    }
+
+    .box-6 {
+      background: $greenShape;
+      margin-top: -130px;
+
+      .box-image {
+        width: 100%;
+        height: 75%;
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+        overflow: hidden;
+
+        background: url("https://m.media-amazon.com/images/I/81ZNRHJ+cIL.jpg")
+          no-repeat;
+        background-size: 100% 100%; 
+
+        @include media("<=986px") {
+          width: 100%;
+          height: 60%;
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          overflow: hidden;
+          background: url("https://m.media-amazon.com/images/I/81ZNRHJ+cIL.jpg")
             no-repeat;
           background-size: 100% auto; /* Use 100% width and auto height to smush the background image */
           margin-bottom: -1.5rem;

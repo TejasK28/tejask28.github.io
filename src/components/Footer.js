@@ -22,7 +22,7 @@ const Footer = () => {
             <p>
               <a
                 data-text="LinkedIn"
-                href="https://linkedin.com/in/tejaskandri28"
+                href="https://linkedin.com/in/tejaskandri"
                 target="_blank"
                 rel="noopener noreferrer"
               >

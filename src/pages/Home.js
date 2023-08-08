@@ -166,6 +166,48 @@ const Home = () => {
                 <div className="box-image"></div>
               </a>
             </AnimateEl>
+
+            <AnimateEl>
+              <a
+                href="https://github.com/TejasK28/Uno"
+                target="_blank"
+                rel="noopener noreferrer"
+                onMouseEnter={boxHover}
+                onMouseLeave={boxExit}
+                className="box box-5"
+              >
+                <div className="box-content">
+                  <div className="box-anim p-title">Uno</div>
+                  <div className="box-anim p-sub">
+                    The family game of Uno developed in Java. Play from your treminal.
+                  </div>
+                  <div className="box-anim link">View Project &#8594;</div>
+                </div>
+
+                <div className="box-image"></div>
+              </a>
+            </AnimateEl>
+
+            <AnimateEl>
+              <a
+                href="https://github.com/TejasK28/ConnectFour"
+                target="_blank"
+                rel="noopener noreferrer"
+                onMouseEnter={boxHover}
+                onMouseLeave={boxExit}
+                className="box box-6"
+              >
+                <div className="box-content">
+                  <div className="box-anim p-title">Connect Four</div>
+                  <div className="box-anim p-sub">
+                    The classic game of Connect Four developed in Python. Play from your terminal.
+                  </div>
+                  <div className="box-anim link">View Project &#8594;</div>
+                </div>
+
+                <div className="box-image"></div>
+              </a>
+            </AnimateEl>
             
           </div>
           <a
@@ -215,7 +257,7 @@ const Home = () => {
                 <i className="fab fa-linkedin-in"></i>
                 <div className="items">
                   <div className="name">Linkedin</div>
-                  <div className="user">/tejaskandri</div>
+                  <div className="user">/in/tejaskandri</div>
                 </div>
               </div>
             </a>
