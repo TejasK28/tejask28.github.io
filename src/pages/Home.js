@@ -14,6 +14,7 @@ const text1 = "Hi, I'm Tejas.";
 const text2 = "Code, Creativity, & Projects.";
 
 const Home = () => {
+  
   useEffect(() => {
     window.scrollTo({
       top: 0,
