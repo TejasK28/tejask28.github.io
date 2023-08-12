@@ -137,7 +137,7 @@ body {
         }
 
         .stack {
-            margin-right: 285px;
+            margin-right: 0px;
 
             @include media("<=1040px") {
                 margin-right: 115px;
@@ -146,6 +146,7 @@ body {
             @include media("<=tablet") {
                 margin-right: 0;
             }
+
         }
 
 
@@ -161,6 +162,10 @@ body {
             .companies {
                 margin-top: 60px;
                 font-size: 14px;
+                display: flex;
+                flex-wrap: wrap; /* Allow flex items to wrap to the next row */
+                justify-content: flex-start; /* Align items to the left */
+
 
                 @include media("<=tablet") {
                     margin-top: 40px;
@@ -202,3 +207,50 @@ body {
         }
     }
 }
+
+.languages {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 200%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .language {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+    
+    &:hover {
+      transform: translateY(-5px);
+    }
+    
+    .language-image {
+      width: 65px;
+      height: 65px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+    
+    .language-name {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .languages {
+      flex-direction: column;
+      justify-content: flex-end; /* Align items to the bottom (right in a vertical context) */
+      align-items: flex-end; /* Align items to the right */
+    }
+    
+    .language {
+      margin-right: 0; /* Remove margin on small screens */
+    }
+  }
+  

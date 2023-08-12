@@ -75,9 +75,78 @@ const About = () => {
               </div>
 
               <div className="companies">
-                
-                
-                <div className="company">
+             
+              <div className="company">
+              <div className="name tech">Languages:</div>
+
+              <div class="languages">
+                  {/* First Row */}
+                  <div class="language">
+                    <img src="https://1000logos.net/wp-content/uploads/2020/09/Java-Logo.png" alt="Java" class="language-image" />
+                    <span class="task">Java</span>
+                  </div>
+
+                  <div class="language">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png" alt="Python" class="language-image" />
+                    <span class="task">Python</span>
+                  </div>
+
+                  <div class="language">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png" alt="C" class="language-image" />
+                    <span class="task">C</span>
+                  </div>
+
+                  <div class="language">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1200px-ISO_C%2B%2B_Logo.svg.png" alt="C++" class="language-image" />
+                    <span class="task">C++</span>
+                  </div>
+
+                  <div class="language">
+                    <img src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png" alt="JavaScript" class="language-image" />
+                    <span class="task">JavaScript</span>
+                  </div>
+
+              </div>
+
+              <div class="languages">
+                  {/* Second Row */}
+
+                  <div class="language">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML" class="language-image" />
+                    <span class="task">HTML</span>
+                  </div>
+
+                  <div class="language">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/800px-CSS3_logo_and_wordmark.svg.png" alt="CSS" class="language-image" />
+                    <span class="task">CSS</span>
+                  </div>
+
+                  <div class="language">
+                    <img src="https://i0.wp.com/learn.onemonth.com/wp-content/uploads/2019/07/image2-1.png?fit=600%2C315&ssl=1" alt="SQL" class="language-image" />
+                    <span class="task">SQL</span>
+                  </div>
+
+                  <div class="language">
+                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--LkL103Qa--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/377/landscape/typescriptlang.png" alt="TypeScript" class="language-image" />
+                    <span class="task">TypeScript</span>
+                  </div>
+
+                  <div class="language">
+                    <img src="https://www.coretechs.com/wp-content/uploads/2020/08/kotlin-1-logo.png" alt="Kotlin" class="language-image" />
+                    <span class="task">Kotlin</span>
+                  </div>
+
+              </div>
+              
+              
+
+  
+
+              
+              </div>
+
+
+                {/* <div className="company">
                   <div className="name tech">Languages:</div>
                   <ul className="tasks">
                     <li>Java</li>
@@ -88,13 +157,14 @@ const About = () => {
                     <li>SQL</li>
                     <li>NoSQL</li>
                     <li>Kotlin</li>
-
-
                   </ul>
-                </div>
+                </div> */}
+
+                
 
 
-                <div className="company">
+
+                {/* <div className="company">
                   <div className="name tech">Frameworks/Libraries/Technologies:</div>
                   <ul className="tasks">
                     <li>D3.js</li>
@@ -115,9 +185,9 @@ const About = () => {
                     <li>vue.js</li>
                     <li>MongoDB</li>
                   </ul>
-                </div>
+                </div> */}
 
-                <div className="company">
+                {/* <div className="company">
                   <div className="name tech">Familiar:</div>
                   <ul className="tasks">
                     <li>Django</li>
@@ -125,7 +195,7 @@ const About = () => {
                     <li>AWS</li>
                     <li>UI/UX</li>
                   </ul>
-                </div>
+                </div> */}
 
                 {/* 
                 
