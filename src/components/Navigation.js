@@ -20,9 +20,9 @@ const Navigation = () => {
             </div>
             
             
-            <div data-text="Résumé" className="nav-link">
+            <div data-text="Resume" className="nav-link">
             <a href="https://drive.google.com/file/d/1LONjL1bsZQ55ZXYRsANSlAionsJnOCc6/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-            Résumé
+            Resume
               </a>
       
             </div>

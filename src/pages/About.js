@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                Sophomore computer science student at Rutgers University - New Brunswick.
+                Sophomore computer science & data science student at Rutgers University - New Brunswick.
                 Driven to expand expertise in a dyanmic and ever-changing learning enviroment.
                 Eager to contribute to rapid advancements and innovation and aim to explore new opportunities.
               </p>
@@ -64,7 +64,7 @@ const About = () => {
               href="https://drive.google.com/file/d/1LONjL1bsZQ55ZXYRsANSlAionsJnOCc6/view?usp=sharing"
               download
             >
-              <i className="fas fa-file-alt"></i> View Résumé
+              <i className="fas fa-file-alt"></i> View Resume
             </a>
           </div>
 
@@ -225,11 +225,14 @@ const About = () => {
               <div className="companies">
 
                 <div className="company">
-                  <div className="name">Rutgers University (Student Athlete Tutor)</div>
+                  <div className="name">Rutgers University (Computer Science Academic Tutor)</div>
                   <div className="year">July 2023 - Present</div>
                   <ul className="tasks">
                     <li>
                     Tutored athletes in multiple courses related to Computer Science such as Data Structures & Algorithms, Introduction to Logic, and Calculus I & II
+                    </li>
+                    <li>
+                    Enhanced academic proficiency of student-athletes through personalized tutoring, adapting to individual learning styles, leading to noticeable academic advancement
                     </li>
                     
                   </ul>
@@ -241,13 +244,10 @@ const About = () => {
                   <div className="year">September 2022 - Present</div>
                   <ul className="tasks">
                     <li>
-                      Evaluated the progress of 30+ students in multiple subjects spanning from elementary mathematics to college-level calculus 
-                    </li>
+                    Leveraged digital tools to effectively address the learning requirements of a diverse group of 30 students, leading to an exceptional "A" final average grade in respective mathematics courses                    </li>
+                    
                     <li>
-                      Contributed significantly to the success in mathematics-related assessments, resulting in an average score of 90% among students
-                    </li>
-                    <li>
-                    Leveraged effective teaching methods to keep students engaged to foster a deeper understanding of mathematics
+                    Managed and provided one-on-one and group virtual  environments for 3+ students per session while increasing student enrollment and commitment through robust remote learning sessions held weekly
                     </li>
                   </ul>
                 </div>

@@ -55,10 +55,12 @@ const Home = () => {
           </h1>
           <div className="links">
             <NavLink className="item" to="/about">
-              About Me
+              About
             </NavLink>
             <span className="item">—</span>
-            <span className="item"><a href="#projects">Personal Projects</a></span>
+            <span className="item"><a href="#projects">Projects</a></span>
+            <span className="item">—</span>
+            <span className="item"><a href="https://drive.google.com/file/d/1LONjL1bsZQ55ZXYRsANSlAionsJnOCc6/view?usp=sharing">Resume</a></span>
           </div>
 
           <div className="scroll-down">
@@ -79,7 +81,7 @@ const Home = () => {
         <section className="landing__work">
           <AnimateEl>
             <div className="title" id="projects">
-              Personal <br /> Projects
+               Projects
             </div>
           </AnimateEl>
           <div className="boxes">
