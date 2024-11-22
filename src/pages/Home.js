@@ -11,7 +11,7 @@ import AnimateEl from "../components/AnimateEl";
 const transition = { duration: 1, ease: "easeInOut", delay: 0.8 };
 
 const text1 = "Hi, I'm Tejas.";
-const text2 = "Code, Creativity, & Projects.";
+const text2 = "";
 
 const Home = () => {
   
@@ -85,7 +85,7 @@ const Home = () => {
             </div>
           </AnimateEl>
           <div className="boxes">
-            <AnimateEl>
+            {/* <AnimateEl>
               <a
                 onMouseEnter={boxHover}
                 onMouseLeave={boxExit}
@@ -105,13 +105,13 @@ const Home = () => {
 
                 <div className="box-image"></div>
               </a>
-            </AnimateEl>
+            </AnimateEl> */}
             <AnimateEl>
               <a
                 href="https://github.com/TejasK28/Course-Sniper-2.0"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="box box-2"
+                className="box box-1"
                 onMouseEnter={boxHover}
                 onMouseLeave={boxExit}
               >
@@ -128,7 +128,7 @@ const Home = () => {
             </AnimateEl>
             
             
-            <AnimateEl>
+            {/* <AnimateEl>
               <a
                 href="https://github.com/TejasK28/Monopoly"
                 target="_blank"
@@ -147,7 +147,7 @@ const Home = () => {
                 <div className="in-progress-banner">In progress</div>
                 <div className="box-image"></div>
               </a>
-            </AnimateEl>
+            </AnimateEl> */}
 
             <AnimateEl>
               <a
@@ -156,7 +156,7 @@ const Home = () => {
                 rel="noopener noreferrer"
                 onMouseEnter={boxHover}
                 onMouseLeave={boxExit}
-                className="box box-4"
+                className="box box-2"
               >
                 <div className="box-content">
                   <div className="box-anim p-title">New Jersey MVC Appointment Sniper</div>
@@ -170,7 +170,7 @@ const Home = () => {
               </a>
             </AnimateEl>
 
-            <AnimateEl>
+            {/* <AnimateEl>
               <a
                 href="https://github.com/TejasK28/Uno"
                 target="_blank"
@@ -189,9 +189,9 @@ const Home = () => {
 
                 <div className="box-image"></div>
               </a>
-            </AnimateEl>
+            </AnimateEl> */}
 
-            <AnimateEl>
+            {/* <AnimateEl>
               <a
                 href="https://github.com/TejasK28/ConnectFour"
                 target="_blank"
@@ -210,7 +210,7 @@ const Home = () => {
 
                 <div className="box-image"></div>
               </a>
-            </AnimateEl>
+            </AnimateEl> */}
             
           </div>
           <a

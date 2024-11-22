@@ -52,12 +52,11 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                Sophomore computer science & data science student at Rutgers University - New Brunswick.
-                Driven to expand expertise in a dyanmic and ever-changing learning enviroment.
+                Junior computer science & data science double major at Rutgers University - New Brunswick.
                 Eager to contribute to rapid advancements and innovation and aim to explore new opportunities.
               </p>
               <p>
-                Currently looking for roles and opportunities in software engineering and data science/engineering. 
+                Currently looking for roles and opportunities in software engineering, data science/engineering, and cybersecurity. 
               </p>
             </div>
             <a
@@ -127,7 +126,7 @@ const About = () => {
                   </div>
 
                   <div class="language">
-                    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--LkL103Qa--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/377/landscape/typescriptlang.png" alt="TypeScript" class="language-image" />
+                    <img src="https://www.datocms-assets.com/48401/1627663113-learn-typescript.png?fit=max&w=900" alt="TypeScript" class="language-image" />
                     <span class="task">TypeScript</span>
                   </div>
 
@@ -224,8 +223,55 @@ const About = () => {
 
               <div className="companies">
 
+               
+                {/* Machine Learning */}
+
                 <div className="company">
-                  <div className="name">Rutgers University (Computer Science Academic Tutor)</div>
+                  <div className="name">Machine Learning Engineer Intern (Artcii)</div>
+                  <div className="year">June 2024 - September 2024</div>
+                  <ul className="tasks">
+                    <li>
+                    TBD                   
+                     </li>
+                    <li>
+                    TBD
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Rutgers */}
+
+                <div className="company">
+                  <div className="name">CS111: Intro to Computer Science TA (Rutgers University)</div>
+                  <div className="year">Semptember 2024 - Present</div>
+                  <ul className="tasks">
+                    <li>
+                    TBD
+                    </li>
+                    <li>
+                    TBD
+                    </li>
+                    
+                  </ul>
+                </div>
+
+                <div className="company">
+                  <div className="name">CS112: Data Structures TA (Rutgers University)</div>
+                  <div className="year">January 2024 - Semptember 2024</div>
+                  <ul className="tasks">
+                    <li>
+                    TBD
+                    </li>
+                    <li>
+                    TBD
+                    </li>
+                    
+                  </ul>
+                </div>
+
+
+                 <div className="company">
+                  <div className="name">Computer Science Academic Tutor (Rutgers University)</div>
                   <div className="year">July 2023 - Present</div>
                   <ul className="tasks">
                     <li>
@@ -237,6 +283,9 @@ const About = () => {
                     
                   </ul>
                 </div>
+
+                {/* Mathnasium  */}
+
 
 
                 <div className="company">

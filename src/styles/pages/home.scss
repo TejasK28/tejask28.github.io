@@ -466,7 +466,7 @@
 
     .box-1 {
       background: $col-yellow;
-      margin-top: 130px;
+      margin-top: 90px;
 
       @include media("<=986px") {
         margin-top: 100px;
@@ -479,7 +479,7 @@
         bottom: 0;
         left: 0;
         overflow: hidden;
-        background: url("../../pictures/sent-analysis.jpg")
+        background: url("../../pictures/rutgers.JPG")
           no-repeat;
         background-size: 100% 100%;
 
@@ -502,7 +502,7 @@
         bottom: 0;
         left: 0;
         overflow: hidden;
-        background: url("../../pictures/rutgers.JPG")
+        background: url("../../pictures/sent-analysis.jpg")
           no-repeat;
         background-size: 100% 100%;
 
