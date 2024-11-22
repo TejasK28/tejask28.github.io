@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c1363de7.css",
+    "main.js": "/static/js/main.a6a98b94.js",
+    "static/media/mon.jpg": "/static/media/mon.24032f40f59e70d4417d.jpg",
+    "static/media/nj.JPG": "/static/media/nj.29538565a72b1bb879db.JPG",
+    "static/media/uno.JPG": "/static/media/uno.7101cf4eed6b24320862.JPG",
+    "static/media/confour.JPG": "/static/media/confour.5fa65b252bb62ea073e2.JPG",
+    "static/media/sent-analysis.jpg": "/static/media/sent-analysis.38e52b0668f808458b9d.jpg",
+    "static/media/rutgers.JPG": "/static/media/rutgers.6cb2cc9a59f96ea4adc4.JPG",
+    "index.html": "/index.html",
+    "static/media/down-scroll.svg": "/static/media/down-scroll.ce1af742a2d1c0662ba5466938b254c8.svg",
+    "static/media/triangle.svg": "/static/media/triangle.684e31896933ecda11fc0d057a3b8068.svg",
+    "main.c1363de7.css.map": "/static/css/main.c1363de7.css.map",
+    "main.a6a98b94.js.map": "/static/js/main.a6a98b94.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1363de7.css",
+    "static/js/main.a6a98b94.js"
+  ]
+}
