@@ -50,7 +50,7 @@ const About = () => {
             <div className="my-name">
               Tejas <br /> Kandri.
             </div>
-            <div className="desc">//
+            <div className="desc">
               <p>
                 Junior computer science & data science double major at Rutgers University - New Brunswick.
                 Eager to contribute to rapid advancements and innovation and aim to explore new opportunities.
