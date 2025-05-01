@@ -249,20 +249,44 @@
       }
     }
 
+    .boxes {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      grid-column-gap: 60px;
+      grid-row-gap: 40px;
+      margin-top: 40px;
+      padding: 0 20px;
+      margin-bottom: 80px;
+
+      @include media(">1300px") {
+        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+        grid-column-gap: 80px;
+      }
+
+      @include media("<=1040px") {
+        grid-column-gap: 40px;
+      }
+
+      @include media("<=600px") {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        padding: 0 10px;
+      }
+    }
+
     button {
       @include button;
       background: transparent;
       position: relative;
-      top: -60px;
-      right: -70.5%;
+      display: block;
+      margin: 0 auto;
       text-transform: none;
       font-weight: 500;
       font-family: "Inter", sans-serif;
-      //bottom: -16.8%;
       font-size: 16px;
       color: $blueShape;
       border: 1px solid $blueShape;
       transition: color 0.2s linear;
+      margin-top: 40px;
 
       &:hover {
         color: $white;
@@ -284,168 +308,122 @@
         right: 0;
         height: 100%;
         transition: all 0.2s linear;
-
-        // z-index: -1;
         background: $blueShape;
       }
-
-      @include media("<=986px") {
-        position: relative;
-        left: unset;
-        right: unset;
-        display: block;
-        margin: 0 auto;
-        margin-top: 90px;
-      }
-
 
       .btn-content {
         position: relative;
         z-index: 1;
-
-      }
-    }
-
-    .boxes {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-      grid-column-gap: 75px;
-      grid-row-gap: 60px;
-
-      @include media(">1300px") {
-        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-      }
-
-      @include media("<=1040px") {
-        grid-column-gap: 50px;
-      }
-
-      @include media("<=600px") {
-        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       }
     }
 
     .box {
-      height: 620px;
+      height: 580px;
       position: relative;
       overflow: hidden;
-      padding: 0 20px;
-
-      @include media(">1300px") {
-        height: 710px;
-      }
-
-      @include media("<=986px") {
-        height: 730px;
-      }
-
-      @include media("<=800px") {
-        height: 620px;
-      }
-
-      @include media("<=522px") {
-        height: 580px;
-      }
-
-      @include media("<=phone") {
-        height: 470px;
-        padding-left: 10px;
-      }
-
-      .box-image {
-        transition: transform 0.2s linear;
-      }
-
-      &::after {
-        background: rgba(15, 20, 30, 0.8);
-        position: absolute;
-        display: block;
-        width: 100%;
-        height: 100%;
-        top: 0;
-        left: 0;
-        z-index: 1;
-        opacity: 0;
-        content: "";
-        box-sizing: border-box;
-        transition: opacity 0.2s ease-in;
-      }
+      padding: 0;
+      border-radius: 8px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
 
       &:hover {
-        &::after {
-          opacity: 1;
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 
-          @include media("<=986px") {
-            opacity: 0;
-          }
+        .box-content {
+          background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%);
         }
 
         .link {
-          color: $subText;
           opacity: 1;
-
-          @include media("<=986px") {
-            color: $black;
-          }
+          transform: translateY(0);
         }
 
         .box-image {
-          transform: scale(1.02);
+          transform: scale(1.05);
         }
       }
 
-      .link {
-        font-weight: 600;
-        margin-top: 20px;
-        opacity: 0;
-        color: $black;
+      @include media(">1300px") {
+        height: 650px;
+      }
 
-        @include media("<=986px") {
-          opacity: 1;
-        }
+      @include media("<=986px") {
+        height: 600px;
+      }
+
+      @include media("<=800px") {
+        height: 550px;
+      }
+
+      @include media("<=522px") {
+        height: 500px;
+      }
+
+      @include media("<=phone") {
+        height: 450px;
       }
 
       .box-content {
-        padding: 40px 20px;
-        padding-bottom: 20px;
+        padding: 40px 30px;
         z-index: 2;
         position: relative;
+        background: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0) 100%);
+        transition: background 0.3s ease;
 
         @include media("<=522px") {
-          padding-right: 10px;
+          padding: 30px 20px;
         }
 
         .p-title {
           text-transform: uppercase;
           font-weight: 800;
-          letter-spacing: 3px;
+          letter-spacing: 2px;
+          font-size: 20px;
+          margin-bottom: 15px;
+          color: $white;
+
+          @include media("<=522px") {
+            font-size: 16px;
+          }
+        }
+
+        .p-sub {
+          font-family: "Manrope", sans-serif;
+          font-weight: 500;
           font-size: 18px;
+          line-height: 1.5;
+          color: $white;
+          margin-bottom: 20px;
+
+          @include media("<=666px") {
+            font-size: 16px;
+          }
 
           @include media("<=522px") {
             font-size: 14px;
           }
         }
 
-        .p-sub {
-          font-family: "Manrope", sans-serif;
-          font-weight: 800;
-          font-size: 37px;
-          padding-right: 60px;
+        .link {
+          font-weight: 600;
+          color: $white;
+          opacity: 0;
+          transform: translateY(10px);
+          transition: opacity 0.3s ease, transform 0.3s ease;
+          display: inline-block;
           margin-top: 20px;
-          line-height: 1.2;
-
-          @include media("<=666px") {
-            font-size: 34px;
-          }
-
-          @include media("<=522px") {
-            font-size: 20px;
-          }
-
-          @include media("<=phone") {
-            padding-right: 0;
-          }
         }
+      }
+
+      .box-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        transition: transform 0.3s ease;
       }
     }
 
@@ -466,51 +444,21 @@
 
     .box-1 {
       background: $col-yellow;
-      margin-top: 90px;
-
-      @include media("<=986px") {
-        margin-top: 100px;
-      }
-
-      .box-image {
-        width: 100%;
-        height: 50%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        overflow: hidden;
-        background: url("../../pictures/rutgers.JPG")
-          no-repeat;
-        background-size: 100% 100%;
-
-        @include media("<=phone") {
-          height: 43%;
-        
-        }
-      }
-
       
+      .box-image {
+        background: url("../../assets/images/dessert-cart.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+      }
     }
 
     .box-2 {
       background: $boxBlue;
-
+      
       .box-image {
-        width: 100%;
-        height: 50%;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        overflow: hidden;
-        background: url("../../pictures/sent-analysis.jpg")
-          no-repeat;
-        background-size: 100% 100%;
-
-
-        @include media("<=phone") {
-          height: 40%;
-
-        }
+        background: url("../../assets/images/mvc.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
       }
     }
 
@@ -524,8 +472,7 @@
         bottom: 0;
         left: 0;
         overflow: hidden;
-        background: url("../../pictures/mon.jpg")
-          no-repeat;
+        background: url("../../assets/images/mon.jpg") no-repeat;
         background-size: 100% 100%;
 
         @include media("<=phone") {
@@ -547,10 +494,8 @@
         bottom: -100px;
         left: 0;
         overflow: hidden;
-
-        background: url("../../pictures/nj.JPG")
-          no-repeat;
-        background-size: 100% 100%; 
+        background: url("../../assets/images/mvc.jpg") no-repeat;
+        background-size: 100% 100%;
 
         @include media("<=986px") {
           width: 100%;
@@ -559,7 +504,7 @@
           bottom: 0;
           left: 0;
           overflow: hidden;
-          background-size: 100% auto; /* Use 100% width and auto height to smush the background image */
+          background-size: 100% auto;
           margin-bottom: -1.5rem;
         }
       }
@@ -579,14 +524,11 @@
         bottom: 0;
         left: 0;
         overflow: hidden;
-        background: url("../../pictures/uno.JPG")
-          no-repeat;
+        background: url("../../assets/images/uno.JPG") no-repeat;
         background-size: 100% 100%;
-
 
         @include media("<=phone") {
           height: 50%;
-
         }
       }
     }
@@ -602,10 +544,8 @@
         bottom: -100px;
         left: 0;
         overflow: hidden;
-
-        background: url("../../pictures/confour.JPG")
-          no-repeat;
-        background-size: 100% 100%; 
+        background: url("../../assets/images/confour.JPG") no-repeat;
+        background-size: 100% 100%;
 
         @include media("<=986px") {
           width: 100%;
@@ -614,7 +554,7 @@
           bottom: 0;
           left: 0;
           overflow: hidden;
-          background-size: 100% auto; /* Use 100% width and auto height to smush the background image */
+          background-size: 100% auto;
           margin-bottom: -1.5rem;
         }
       }

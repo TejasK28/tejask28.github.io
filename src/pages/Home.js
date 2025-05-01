@@ -86,30 +86,9 @@ const Home = () => {
             </div>
           </AnimateEl>
           <div className="boxes">
-            {/* <AnimateEl>
-              <a
-                onMouseEnter={boxHover}
-                onMouseLeave={boxExit}
-                className="box box-1"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://github.com/TejasK28/Film-Oracle-Sentiment-Analysis/"
-              >
-                <div className="box-content">
-                  <div className="box-anim p-title">Sentiment Analysis for Movies & Shows</div>
-                  <div className="box-anim p-sub">
-                    A neural network learns your movie interests and predicts what movies & shows you would enjoy.
-                  </div>
-                  <div className="box-anim link">View Project &#8594;</div>
-                </div>
-                <div className="in-progress-banner">In Progress</div>
-
-                <div className="box-image"></div>
-              </a>
-            </AnimateEl> */}
             <AnimateEl>
               <a
-                href="https://github.com/TejasK28/Course-Sniper-2.0"
+                href="https://github.com/TejasK28/Dessert-Cart-Rentals"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="box box-1"
@@ -117,38 +96,15 @@ const Home = () => {
                 onMouseLeave={boxExit}
               >
                 <div className="box-content">
-                  <div className="box-anim p-title">Rutgers University: Course Sniper</div>
+                  <div className="box-anim p-title">Dessert Cart Rentals Platform</div>
                   <div className="box-anim p-sub">
-                    Automates course selection & registration for highly competitive courses.  
+                    Full-stack MERN platform for dessert cart rentals, generating revenue with automated booking system and real-time inventory management.
                   </div>
                   <div className="box-anim link">View Project &#8594;</div>
                 </div>
-
                 <div className="box-image"></div>
               </a>
             </AnimateEl>
-            
-            
-            {/* <AnimateEl>
-              <a
-                href="https://github.com/TejasK28/Monopoly"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="box box-3"
-                onMouseEnter={boxHover}
-                onMouseLeave={boxExit}
-              >
-                <div className="box-content">
-                  <div className="box-anim p-title">Monopoly</div>
-                  <div className="box-anim p-sub">
-                    Recreation of the family game Monopoly in Java.
-                  </div>
-                  <div className="box-anim link">View Project &#8594;</div>
-                </div>
-                <div className="in-progress-banner">In progress</div>
-                <div className="box-image"></div>
-              </a>
-            </AnimateEl> */}
 
             <AnimateEl>
               <a
@@ -160,59 +116,15 @@ const Home = () => {
                 className="box box-2"
               >
                 <div className="box-content">
-                  <div className="box-anim p-title">New Jersey MVC Appointment Sniper</div>
+                  <div className="box-anim p-title">Motor Vehicle Commission: Appointment Booker</div>
                   <div className="box-anim p-sub">
-                    Automates appointment registration process for any MVC location in NJ. Open sourced during the pandemic.
+                    Python-based Selenium bot with RESTful APIs to auto-book DMV appointments with 97% success rate, helping 150+ users across 23 NJ locations.
                   </div>
                   <div className="box-anim link">View Project &#8594;</div>
                 </div>
-
                 <div className="box-image"></div>
               </a>
             </AnimateEl>
-
-            {/* <AnimateEl>
-              <a
-                href="https://github.com/TejasK28/Uno"
-                target="_blank"
-                rel="noopener noreferrer"
-                onMouseEnter={boxHover}
-                onMouseLeave={boxExit}
-                className="box box-5"
-              >
-                <div className="box-content">
-                  <div className="box-anim p-title">Uno</div>
-                  <div className="box-anim p-sub">
-                    The family game of Uno developed in Java. Play from your treminal.
-                  </div>
-                  <div className="box-anim link">View Project &#8594;</div>
-                </div>
-
-                <div className="box-image"></div>
-              </a>
-            </AnimateEl> */}
-
-            {/* <AnimateEl>
-              <a
-                href="https://github.com/TejasK28/ConnectFour"
-                target="_blank"
-                rel="noopener noreferrer"
-                onMouseEnter={boxHover}
-                onMouseLeave={boxExit}
-                className="box box-6"
-              >
-                <div className="box-content">
-                  <div className="box-anim p-title">Connect Four</div>
-                  <div className="box-anim p-sub">
-                    The classic game of Connect Four developed in Python. Play from your terminal.
-                  </div>
-                  <div className="box-anim link">View Project &#8594;</div>
-                </div>
-
-                <div className="box-image"></div>
-              </a>
-            </AnimateEl> */}
-            
           </div>
           <a
             href="https://github.com/tejask28"
