@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear();
+  
   return (
     <footer className="main-footer">
       <hr />
@@ -49,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="footer-bottom">© Tejas Kandri 2023</div>
+      <div className="footer-bottom">© Tejas Kandri {currentYear}</div>
     </footer>
   );
 };

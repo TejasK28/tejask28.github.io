@@ -25,7 +25,8 @@ const Home = () => {
 
   return (
     <>
-      <PreLoader />
+      {/* <PreLoader /> */ }
+        
 
       <motion.div
         exit={{ height: "100vh", transition }}
@@ -34,7 +35,7 @@ const Home = () => {
 
       <div className="landing">
         <section className="landing__top">
-          <div className="sub">Aspiring Software Engineer</div>
+          <div className="sub">Junior Automation Developer @ Veolia</div>
           <h1 className="landing__main">
             <span className="text-con">
               {text1.split("").map((t, i) => (
@@ -59,7 +60,7 @@ const Home = () => {
             </NavLink>
             <span className="item">—</span>
             <span className="item"><a href="#projects">Projects</a></span>
-            <span className="item">—</span>
+            <span className="item">—</span> 
             <span className="item"><a href="https://drive.google.com/file/d/1LONjL1bsZQ55ZXYRsANSlAionsJnOCc6/view?usp=sharing">Resume</a></span>
           </div>
 

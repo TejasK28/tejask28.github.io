@@ -110,6 +110,12 @@
                 padding: 0.6em;
                 padding-left: 0;
 
+                &::placeholder {
+                    font-family: 'Manrope', sans-serif;
+                    color: $subText;
+                    opacity: 0.7;
+                }
+
                 @include media("<=1040px") {
                     font-size: 14px;
                 }
