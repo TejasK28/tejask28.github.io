@@ -52,7 +52,7 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                Junior computer science & data science double major at Rutgers University - New Brunswick.
+                Senior Computer Science & Data Science double major @ Rutgers University - New Brunswick.
                 Eager to contribute to rapid advancements and innovation and aim to explore new opportunities.
               </p>
               <p>
@@ -223,18 +223,37 @@ const About = () => {
 
               <div className="companies">
 
+
+              {/* Autation Developer Internship*/}
+
+              <div className="company">
+                  <div className="name">Junior Automation Developer @ Veolia</div>
+                  <div className="year">June 2025 - August 2025</div>
+                  <ul className="tasks">
+                    <li>
+                    </li>
+                    <li>
+                    </li>
+                    <li>
+                    </li>
+                  </ul>
+                </div>
+
                
                 {/* Machine Learning */}
 
                 <div className="company">
-                  <div className="name">Machine Learning Engineer Intern (Artcii)</div>
+                  <div className="name">Machine Learning Engineer Intern @ Artcii</div>
                   <div className="year">June 2024 - September 2024</div>
                   <ul className="tasks">
                     <li>
-                    TBD                   
+                    Designed and deployed a Retrieval-Augmented Generation (RAG) system using OpenAI API and Pinecone in Node.js, enabling accurate multi-modal data retrieval that enhanced personalized learning for 20+ users                   
                      </li>
                     <li>
-                    TBD
+                    Built a real-time analytics dashboard to track user ratings of AI-generated responses, implementing weekly feedback loops that drove targeted improvements in recommendation quality
+                    </li>
+                    <li>
+                      Engineered enterprise-grade MongoDB schemas with built-in validation, optimizing query performance to process over 500 requests/sec while maintaining high availability
                     </li>
                   </ul>
                 </div>
@@ -242,64 +261,26 @@ const About = () => {
                 {/* Rutgers */}
 
                 <div className="company">
-                  <div className="name">CS111: Intro to Computer Science TA (Rutgers University)</div>
-                  <div className="year">Semptember 2024 - Present</div>
+                  <div className="name">Data Structures Teaching Assistant @ Rutgers University</div>
+                  <div className="year">Semptember 2023 - Present</div>
                   <ul className="tasks">
                     <li>
-                    TBD
+                    Tutored 30+ student-athletes individually in CS fundamentals, resulting in a 90% pass rate and an average 20-point increase in exam scores across the semester
                     </li>
                     <li>
-                    TBD
-                    </li>
-                    
-                  </ul>
-                </div>
-
-                <div className="company">
-                  <div className="name">CS112: Data Structures TA (Rutgers University)</div>
-                  <div className="year">January 2024 - Semptember 2024</div>
-                  <ul className="tasks">
-                    <li>
-                    TBD
+                    Evaluated academic performance for 1300+ students per semester by proctoring and grading exams, reducing grade disputes by 20% through timely and fair evaluation
                     </li>
                     <li>
-                    TBD
+                    Facilitated review sessions for over 100 students each semester, leading to a significant improvement in understanding algorithms and data structures, which increased student performance on exams by an average of 40 points
                     </li>
                     
                   </ul>
                 </div>
 
 
-                 <div className="company">
-                  <div className="name">Computer Science Academic Tutor (Rutgers University)</div>
-                  <div className="year">July 2023 - Present</div>
-                  <ul className="tasks">
-                    <li>
-                    Tutored athletes in multiple courses related to Computer Science such as Data Structures & Algorithms, Introduction to Logic, and Calculus I & II
-                    </li>
-                    <li>
-                    Enhanced academic proficiency of student-athletes through personalized tutoring, adapting to individual learning styles, leading to noticeable academic advancement
-                    </li>
-                    
-                  </ul>
-                </div>
+                 
 
-                {/* Mathnasium  */}
-
-
-
-                <div className="company">
-                  <div className="name">Mathnasium (Mathematics Tutor)</div>
-                  <div className="year">September 2022 - Present</div>
-                  <ul className="tasks">
-                    <li>
-                    Leveraged digital tools to effectively address the learning requirements of a diverse group of 30 students, leading to an exceptional "A" final average grade in respective mathematics courses                    </li>
-                    
-                    <li>
-                    Managed and provided one-on-one and group virtual  environments for 3+ students per session while increasing student enrollment and commitment through robust remote learning sessions held weekly
-                    </li>
-                  </ul>
-                </div>
+                
                 
 
               </div>
