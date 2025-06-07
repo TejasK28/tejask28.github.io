@@ -227,7 +227,7 @@ const About = () => {
               {/* Autation Developer Internship*/}
 
               <div className="company">
-                  <div className="name">Junior Automation Developer @ Veolia</div>
+                  <div className="name">Junior RPA Developer Intern @ Veolia</div>
                   <div className="year">June 2025 - August 2025</div>
                   <ul className="tasks">
                     <li>
