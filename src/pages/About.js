@@ -218,7 +218,7 @@ const About = () => {
 
             <div className="experience">
               <div className="main-title">
-                <span>experience.</span>
+                <span>experience. </span>
               </div>
 
               <div className="companies">
