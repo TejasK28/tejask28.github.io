@@ -8,7 +8,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -22,7 +21,12 @@ jobs:
         run: npm install
 
       - name: Build React app
-        run: npm run build
+        run: CI=false npm run build
+
+      - name: Set git user for deploy commit
+        run: |
+          git config --global user.name "Your Name"
+          git config --global user.email "your-email@example.com"
 
       - name: Deploy to GitHub Pages
         run: npm run deploy
