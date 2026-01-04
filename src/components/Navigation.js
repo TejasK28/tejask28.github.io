@@ -52,15 +52,16 @@ const Navigation = () => {
               </a>
             </div>
 
-            {/* <div data-text="Blog" className="nav-link">
+            <div data-text="Kaggle" className="nav-link">
               <a
-                href="https://dev.to/oluwadareseyi"
+                href="https://www.kaggle.com/tejaska"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Blog
+                Kaggle
               </a>
-            </div> */}
+            </div>
+            
           </div>
         </div>
         <div className="hover-bg"></div>

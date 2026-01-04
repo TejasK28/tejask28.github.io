@@ -52,8 +52,7 @@ const About = () => {
             </div>
             <div className="desc">
               <p>
-                Senior Computer Science & Data Science double major @ Rutgers University - New Brunswick.
-                Eager to contribute to rapid advancements and innovation and aim to explore new opportunities.
+                Computer Science & Data Science New Grad @ Rutgers University - New Brunswick.
               </p>
               <p>
                 Currently looking for roles and opportunities in software engineering, data science/engineering, and cybersecurity. 
@@ -224,19 +223,37 @@ const About = () => {
               <div className="companies">
 
 
+                {/* MLP RWJ */}
+
+                 <div className="company">
+                  <div className="name">Machine Learning Engineer Co-Op @ Robert Wood Johnson Medical School</div>
+                  <div className="year">December 2025 - Present</div>
+                  {/* <ul className="tasks">
+                    <li>
+                      
+                    </li>
+                    <li>
+                    </li>
+                    <li>
+                    </li>
+                  </ul> */}
+                </div>
+
+
               {/* Autation Developer Internship*/}
 
               <div className="company">
-                  <div className="name">Junior RPA Developer Intern @ Veolia </div>
-                  <div className="year">June 2025 - August 2025 </div>
-                  <ul className="tasks">
+                  <div className="name">Junior Robotic Process Automation (RPA) Developer Intern @ Veolia </div>
+                  <div className="year">June 2025 - Present</div>
+                  {/* <ul className="tasks">
                     <li>
+                      
                     </li>
                     <li>
                     </li>
                     <li>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
 
                
@@ -245,7 +262,7 @@ const About = () => {
                 <div className="company">
                   <div className="name">Machine Learning Engineer Intern @ Artcii</div>
                   <div className="year">June 2024 - September 2024</div>
-                  <ul className="tasks">
+                  {/* <ul className="tasks">
                     <li>
                     Designed and deployed a Retrieval-Augmented Generation (RAG) system using OpenAI API and Pinecone in Node.js, enabling accurate multi-modal data retrieval that enhanced personalized learning for 20+ users                   
                      </li>
@@ -255,15 +272,15 @@ const About = () => {
                     <li>
                       Engineered enterprise-grade MongoDB schemas with built-in validation, optimizing query performance to process over 500 requests/sec while maintaining high availability
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
 
                 {/* Rutgers */}
 
                 <div className="company">
                   <div className="name">Data Structures Teaching Assistant @ Rutgers University</div>
-                  <div className="year">Semptember 2023 - Present</div>
-                  <ul className="tasks">
+                  <div className="year">Semptember 2023 - December 2025</div>
+                  {/* <ul className="tasks">
                     <li>
                     Tutored 30+ student-athletes individually in CS fundamentals, resulting in a 90% pass rate and an average 20-point increase in exam scores across the semester
                     </li>
@@ -274,7 +291,7 @@ const About = () => {
                     Facilitated review sessions for over 100 students each semester, leading to a significant improvement in understanding algorithms and data structures, which increased student performance on exams by an average of 40 points
                     </li>
                     
-                  </ul>
+                  </ul> */}
                 </div>
 
 
