@@ -222,24 +222,6 @@ const About = () => {
 
               <div className="companies">
 
-
-                {/* MLP RWJ */}
-
-                 <div className="company">
-                  <div className="name">Machine Learning Engineer Co-Op @ Robert Wood Johnson Medical School</div>
-                  <div className="year">December 2025 - Present</div>
-                  {/* <ul className="tasks">
-                    <li>
-                      
-                    </li>
-                    <li>
-                    </li>
-                    <li>
-                    </li>
-                  </ul> */}
-                </div>
-
-
               {/* Autation Developer Internship*/}
 
               <div className="company">
