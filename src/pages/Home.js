@@ -35,7 +35,7 @@ const Home = () => {
 
       <div className="landing">
         <section className="landing__top">
-          <div className="sub">Junior Robotic Process Automation Developer Intern @ Veolia</div>
+          <div className="sub">AI & Automation Developer @ Veolia North America</div>
           <h1 className="landing__main">
             <span className="text-con">
               {text1.split("").map((t, i) => (
